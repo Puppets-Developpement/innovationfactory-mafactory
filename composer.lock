@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "be402dc5787ee54255994df52b6bde86",
+    "content-hash": "17ecbda9748ae1efd7935565a81dc877",
     "packages": [
         {
             "name": "composer/installers",
@@ -1189,6 +1189,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/updraftplus/"
+        },
+        {
+            "name": "wpackagist-plugin/user-activity-log",
+            "version": "1.6.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/user-activity-log/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/user-activity-log.zip?timestamp=1700840649"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/user-activity-log/"
         },
         {
             "name": "wpackagist-theme/twentytwentyfour",
