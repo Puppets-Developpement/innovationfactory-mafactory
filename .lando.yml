@@ -4,13 +4,14 @@ services:
   appserver:
     overrides:
       environment:
-        DB_NAME: innovatibv3
+        DB_NAME: wordpress
         DB_USER: root
         DB_PASSWORD: 
         DB_HOST: database
-        WP_ENV: development
-        WP_SITEURL: https://innovation-factory.lndo.site/wp
-        WP_HOME: https://innovation-factory.lndo.site
+        DB_PREFIX: mf_
+        WP_ENV: production
+        WP_SITEURL: https://mafactory.lndo.site/wp
+        WP_HOME: https://mafactory.lndo.site
 
   mailhog:
     type: mailhog
@@ -18,9 +19,9 @@ services:
       - appserver
 proxy:
   mailhog:
-    - mailhog.innovation-factory.lndo.site
+    - mailhog.mafactory.lndo.site
   
 config:
-  php: '8.1'
+  php: '7.4'
   webroot: web 
 
