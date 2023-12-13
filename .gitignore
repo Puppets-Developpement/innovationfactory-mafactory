@@ -46,5 +46,3 @@ web/app/pluginsSave/
 web/app/themes/unicon/
 web/app/themes/twenty*
 
-# acf no key so it's added in git 
-!web/app/plugins/advanced-custom-fields-pro
