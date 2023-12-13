@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "32895c7ed9c46915a11cc6e166b93604",
+    "content-hash": "ad63a295853ddb6f7b8e721a7aa58e72",
     "packages": [
         {
             "name": "composer/installers",
@@ -1156,15 +1156,15 @@
         },
         {
             "name": "wpackagist-plugin/ultimate-member",
-            "version": "2.0.45",
+            "version": "2.8.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ultimate-member/",
-                "reference": "tags/2.0.45"
+                "reference": "tags/2.8.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ultimate-member.2.0.45.zip"
+                "url": "https://downloads.wordpress.org/plugin/ultimate-member.2.8.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
