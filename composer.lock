@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17ecbda9748ae1efd7935565a81dc877",
+    "content-hash": "4233730c5e915ca28d2364d106d589b2",
     "packages": [
         {
             "name": "composer/installers",
@@ -479,7 +479,7 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "5.2.19",
+            "version": "6.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/wordpress.git",
@@ -510,7 +510,7 @@
             ],
             "support": {
                 "issues": "https://github.com/roots/wordpress/issues",
-                "source": "https://github.com/roots/wordpress/tree/6.3.2"
+                "source": "https://github.com/roots/wordpress/tree/6.4.2"
             },
             "funding": [
                 {
@@ -593,22 +593,22 @@
         },
         {
             "name": "roots/wordpress-no-content",
-            "version": "5.2.19",
+            "version": "6.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "5.2.19"
+                "reference": "6.4.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/release/wordpress-5.2.19-no-content.zip",
-                "shasum": "836758db2015e295b41f7f22730efb37e4c0c129"
+                "url": "https://downloads.wordpress.org/release/wordpress-6.4.2-no-content.zip",
+                "shasum": "77d5fc8e5535fc2c63c1c6ae0c4763aad10ac8e7"
             },
             "require": {
-                "php": ">= 5.6.20"
+                "php": ">= 7.0.0"
             },
             "provide": {
-                "wordpress/core-implementation": "5.2.19"
+                "wordpress/core-implementation": "6.4.2"
             },
             "suggest": {
                 "ext-curl": "Performs remote request operations.",
@@ -659,7 +659,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2023-10-12T20:41:56+00:00"
+            "time": "2023-12-06T16:27:40+00:00"
         },
         {
             "name": "roots/wp-config",
@@ -1234,12 +1234,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "a747aad4472d74a283a8aa2c31f2cfa504d4b573"
+                "reference": "1cc247a68262ff8f9656c45b373bb4ce1849045f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/a747aad4472d74a283a8aa2c31f2cfa504d4b573",
-                "reference": "a747aad4472d74a283a8aa2c31f2cfa504d4b573",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/1cc247a68262ff8f9656c45b373bb4ce1849045f",
+                "reference": "1cc247a68262ff8f9656c45b373bb4ce1849045f",
                 "shasum": ""
             },
             "conflict": {
@@ -1611,6 +1611,7 @@
                 "pegasus/google-for-jobs": "<1.5.1|>=2,<2.1.1",
                 "personnummer/personnummer": "<3.0.2",
                 "phanan/koel": "<5.1.4",
+                "phenx/php-svg-lib": "<0.5.1",
                 "php-mod/curl": "<2.3.2",
                 "phpbb/phpbb": "<3.2.10|>=3.3,<3.3.1",
                 "phpfastcache/phpfastcache": "<6.1.5|>=7,<7.1.2|>=8,<8.0.7",
@@ -1941,7 +1942,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-12-11T22:04:17+00:00"
+            "time": "2023-12-13T14:04:38+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
