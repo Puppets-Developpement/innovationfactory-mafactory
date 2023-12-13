@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ad63a295853ddb6f7b8e721a7aa58e72",
+    "content-hash": "0a1c14e68a14b4d2bbd37db119c9e345",
     "packages": [
         {
             "name": "composer/installers",
@@ -1174,15 +1174,15 @@
         },
         {
             "name": "wpackagist-plugin/updraftplus",
-            "version": "1.16.20",
+            "version": "1.23.13",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/updraftplus/",
-                "reference": "tags/1.16.20"
+                "reference": "tags/1.23.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.16.20.zip"
+                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.23.13.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"

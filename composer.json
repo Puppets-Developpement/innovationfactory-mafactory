@@ -44,7 +44,7 @@
     "wpackagist-plugin/ultimate-member": "2.8.0",
     "wpackagist-plugin/contact-form-7": "5.8.4",
     "wpackagist-plugin/custom-post-type-ui": "1.15.1",
-    "wpackagist-plugin/updraftplus": "1.16.20",
+    "wpackagist-plugin/updraftplus": "1.23.13",
     "wpackagist-plugin/user-activity-log": "^1.6"
   },
   "require-dev": {
