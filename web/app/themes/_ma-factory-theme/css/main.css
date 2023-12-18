@@ -220,6 +220,10 @@ ul.page-numbers li span.current {
 /**
 ** Login page **
 **/
+.um{
+    opacity: 1!important;
+}
+
 .login-page {
     background-image: url(../img/background-home.png);
     background-size: cover;

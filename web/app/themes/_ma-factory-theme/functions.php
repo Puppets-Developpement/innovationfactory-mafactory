@@ -5,8 +5,9 @@ function theme_styles()
 
 	// Load all of the styles that need to appear on all pages
 	wp_enqueue_style( 'main', get_template_directory_uri() . '/style.css' );
-	wp_enqueue_style( 'custom', get_template_directory_uri() . '/css/main.css' );
-	wp_enqueue_script( 'script', get_template_directory_uri() . '/js/script.js' );
+	wp_enqueue_style( 'custom', get_template_directory_uri() . '/css/main.css', array(), '1.0', 'all' );
+	wp_enqueue_script( 'script', get_template_directory_uri() . '/js/script.js', array ( 'jquery' ), 1.1, true);
+
 
 }
 add_action('wp_enqueue_scripts', 'theme_styles');
